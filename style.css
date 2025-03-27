@@ -1,0 +1,39 @@
+
+
+body {
+    background-image: url(peak_background.png);
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #aaaaaa;
+    padding: 0 20% 0 20%;
+}
+h1 {
+    font-family: 'Caveat';
+    font-size: 6rem;
+    color: #5E9B9D;
+    margin-bottom: 0;
+    margin-top: 9rem;
+}
+#searchButton {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#searchButton {
+    border-radius: 50%;
+    display: flexbox;
+}
+#word {
+    width: 90%;
+    height: 2rem;
+    border-radius: 1.05rem;
+    padding: 0 1.2rem 0 1.2rem;
+    border-style: none;
+}
+
+.container {
+    /* height: 55vh; */
+    display: grid;
+    align-items: end;
+}
